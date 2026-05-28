@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Voices of America</title>
+    <meta
+      name="description"
+      content="A research project studying perceptions of AI-generated voices in America."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎙️%3C/text%3E%3C/svg%3E" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+  </head>
+  <body class="min-h-screen bg-neutral-50 text-black antialiased">
+    <main class="mx-auto w-full max-w-3xl px-4 sm:px-6 py-12 sm:py-20">
+      <!-- Header -->
+      <header class="mb-12">
+        <p class="text-xs uppercase tracking-widest text-neutral-500 mb-3">
+          Research Project
+        </p>
+        <h1 class="text-4xl sm:text-5xl font-bold leading-tight mb-4">
+          AI Voices of America
+        </h1>
+        <p class="text-neutral-600 text-base sm:text-lg leading-relaxed">
+          A study on how Americans perceive AI-generated voices.
+        </p>
+      </header>
+
+      <!-- About -->
+      <section class="mb-10 bg-white border border-neutral-200 rounded-lg shadow-sm p-6 sm:p-8">
+        <h2 class="text-lg font-semibold mb-4">About the project</h2>
+        <div class="space-y-4 text-sm sm:text-base text-neutral-700 leading-relaxed">
+          <p>
+            <!-- TODO: replace with the project abstract -->
+            AI Voices of America is a research project investigating how listeners
+            perceive synthetic voices, and how those perceptions vary across
+            speakers, regions, and demographics. Participants contribute short
+            voice recordings that help us study the boundaries between human and
+            AI-generated speech.
+          </p>
+          <p>
+            <!-- TODO: replace or remove -->
+            The study is conducted in partnership with the University of Georgia
+            and follows IRB-approved protocols for voice data collection and
+            storage.
+          </p>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section class="mb-10 bg-white border border-neutral-200 rounded-lg shadow-sm p-6 sm:p-8">
+        <h2 class="text-lg font-semibold mb-4">Team</h2>
+        <ul class="divide-y divide-neutral-200">
+          <!-- TODO: replace with real team members -->
+          <li class="py-4 first:pt-0 last:pb-0">
+            <p class="font-medium">Researcher Name</p>
+            <p class="text-sm text-neutral-600">Role · Affiliation</p>
+            <a
+              href="mailto:email@example.edu"
+              class="text-sm text-neutral-700 underline underline-offset-2 hover:text-black"
+              >email@example.edu</a
+            >
+          </li>
+          <li class="py-4 first:pt-0 last:pb-0">
+            <p class="font-medium">Researcher Name</p>
+            <p class="text-sm text-neutral-600">Role · Affiliation</p>
+            <a
+              href="mailto:email@example.edu"
+              class="text-sm text-neutral-700 underline underline-offset-2 hover:text-black"
+              >email@example.edu</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-16 pt-6 border-t border-neutral-200 text-xs text-neutral-500">
+        <p>&copy; <span id="year"></span> AI Voices of America. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
